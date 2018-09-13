@@ -1,0 +1,72 @@
+	<!--This document stores the DTD information for the the XML file catalog_16034897.xml-->
+	<!-- 
+		Author: Mohit Paudel
+		Group: C5
+		Londonmet ID: 16034897 
+	-->
+
+	<!ELEMENT root (Electronic_Store,Items)>
+
+	<!ELEMENT Electronic_Store (Store_Name,Address,Telephone_Number,Website,Logo)>
+	<!ELEMENT Store_Name (#PCDATA)>
+	<!ELEMENT Address (#PCDATA)>
+	<!ELEMENT Telephone_Number (#PCDATA)>
+	<!ELEMENT Website (#PCDATA)>
+	<!ELEMENT Logo (#PCDATA)>
+
+	<!ELEMENT Items (CPUs,Monitor,Mouses,Keyboards,Hard_Disks,Speakers)>
+	<!ELEMENT CPUs (CPU+)>
+	
+	<!ELEMENT CPU (Name,Item_Number,Description,Quantity,Processor_Speed,Item_Dimensions,Processor_Count,Price_Dollar,Price_Pound,Delivery?)>
+
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Item_Number (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+	<!ELEMENT Quantity (#PCDATA)>
+	<!ELEMENT Processor_Speed (#PCDATA)>
+	<!ELEMENT Item_Dimensions (#PCDATA)>
+	<!ELEMENT Processor_Count (#PCDATA)>
+	<!ELEMENT Price_Dollar (#PCDATA)>
+	<!ELEMENT Price_Pound (#PCDATA)>
+	<!ELEMENT Delivery (#PCDATA)>
+	
+	<!ELEMENT Monitor (CRT+,LED+,LCD+)>
+
+	<!ELEMENT CRT (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?,Information)>
+	
+
+	<!ELEMENT Information (Manufacturer,Resolution,Dimension,Color)>
+	<!ELEMENT Manufacturer (#PCDATA)>
+	<!ELEMENT Resolution (#PCDATA)>
+	<!ELEMENT Dimension (#PCDATA)>
+	<!ELEMENT Color (#PCDATA)>
+	
+	<!ELEMENT LED (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?,Information)>
+
+	<!ELEMENT LCD (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?,Information)>
+	
+	<!ELEMENT Mouses (Mouse+)>
+	<!ELEMENT Mouse (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?)>
+	 
+
+	<!ELEMENT Keyboards (Keyboard+)>
+	<!ELEMENT Keyboard (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?)>
+	
+
+	<!ELEMENT Hard_Disks (Hard_Disk+)>
+	<!ELEMENT Hard_Disk (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?)>
+
+
+	<!ELEMENT Speakers (Speaker+)>
+	<!ELEMENT Speaker (Name,Item_Number,Description,Quantity,Price_Dollar,Price_Pound,Delivery?)>
+
+	<!ATTLIST CRT Speaker  #IMPLIED>
+	<!ATTLIST LED Speaker  #IMPLIED>
+	<!ATTLIST LCD Speaker  #IMPLIED>
+	<!ATTLIST CPU ref IDREFS #REQUIRED>
+	<!ATTLIST CRT id ID #REQUIRED>
+	<!ATTLIST LED id ID #REQUIRED>
+	<!ATTLIST LCD id ID #REQUIRED>
+	<!ATTLIST Keyboard id ID #REQUIRED>
+	<!ATTLIST Hard_Disk id ID #REQUIRED>
+	<!ATTLIST Speaker id ID #REQUIRED>

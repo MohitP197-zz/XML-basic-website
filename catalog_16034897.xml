@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This document is the main XML file, which stores the information of for the SK electronic store -->
+<!--
+	Author: Mohit Paudel 
+	Group: C5
+	Londonmet ID: 16034897
+-->
+<?xml-stylesheet type = "text/css" href="catalog_16034897.css"?>
+<!DOCTYPE root SYSTEM "catalog_16034897.dtd">
+<root>
+
+	<Electronic_Store>
+		<Store_Name>SK Electronic Store</Store_Name>
+		<Address>Banasthali, Kathmandu</Address>
+		<Telephone_Number>014242121, 9841417894</Telephone_Number>
+		<Website>www.skelectronicstore.com</Website>
+		<Logo></Logo>
+	</Electronic_Store>
+
+	<Items>
+		
+		<CPUs>
+			
+			<CPU id="c401" ref="c501 c601 c701 c801">
+				<Name>Intel® Core™ i7-6950X Processor Extreme Edition </Name>
+				<Item_Number>1</Item_Number>
+				<Description>
+
+					<![CDATA[With the Intel Core i7 69xx/68xx processor family, you can run several CPU–heavy programs simultaneously without sacrificing performance. A 35% improvement in multi-threaded 3D rendering speed versus the previous generation and up to 2x better multi-threaded 3D-rendering performance versus our latest 4 core processor1 means you can spend more time creating and less time waiting. Experience fast video encode, image rendering, audio production, and real-time previews that you can check out on a bank of monitors at a great resolution. Lags will not be tolerated: Play. Broadcast. Record. Win. In 4K. Get gaming superpowers with the Intel Core i7 processor Extreme Edition, which features Intel Turbo Boost Max Technology 3.03 for more than 15% better single-threaded performance4, blistering 2400MHz memory, fully- loaded 25 MB of Smart Cache, and up to 4 discrete graphics cards working together for your most demanding games. The Intel Core i7 69xx/68xx processor family is unlocked to provide additional headroom. New features include the ability to overclock each core individually, AVX ratio controls for more stability, and VccU voltage control for extreme scenarios. Combined with tools like Intel's Extreme Tuning Utility (Intel XTU) and Extreme Memory Profile (Intel XMP), you have a powerful kit for maximizing performance.]]> 
+
+				</Description>
+				<Quantity>1</Quantity>
+				<Processor_Speed>3.50 GHz</Processor_Speed>
+				<Item_Dimensions>1.61 x 4.56 x 3.93 in</Item_Dimensions>
+				<Processor_Count>10</Processor_Count>
+				<Price_Dollar>$1743</Price_Dollar>
+				<Price_Pound>&#163;1654</Price_Pound>
+				<Delivery>Free Delivery</Delivery>
+			</CPU>
+
+			<CPU id="c402" ref="c502 c602 c702 c802">
+				<Name>AMD Ryzen Threadripper 1950X Processor</Name>
+				<Item_Number>2</Item_Number>
+				<Description>
+
+					<![CDATA[For casual gaming, we would say a $200 (about £154 AU$254) processor is good enough, and $300 (about £231, AU$381) if you’re looking for something futureproofed for at least a few years. With this mind, paying $1244 for the Rzyen Threadripper 1950X might be mind boggling to most users.This is exactly why AMD is marketing this chip to its die-hard fans, the ultimate mega-taskers and gamers who also want to play, record, stream and produce video – all at the same time.Even if you’re not that person, AMD arguably makes a better case for its $12K processor than the Intel Core i9-7900X. On paper, the Threadripper has six more cores and 12 more threads than the Core X part, though, Intel has the upper hand with a greater range of 3.3GHz base/4.3GHz boost clock speeds and a lower 140-watt thermal design power. If you’ve never handled server-grade components before, Threadripper will be an eye opener for you. The processor is physically twice the width of most consumer market CPUs. What’s more, instead of plopping a chip onto the motherboard, Threadripper CPUs come attached to a holder you slide into place.Those with liquid-cooling solutions also might find it especially unnerving to see the corners of their processor uncovered and bare – rest easy, the processor dies are positioned in the center of the chip.Once you get over the new physical nuances of Threadripper, there are also new software profiles to get your head wrapped around. Out of the box, the 1950X and all Threadripper parts thus far are configured to run in either a Creative or Game Mode. Without getting too deep into technical aspects, users can for the most part expect premiere, video encoding and multi-tasking to operate more smoothly in Creative Mode. Meanwhile, Game Mode has the CPU turn off half its cores and return to a more traditional memory access protocol, which helps it deliver slightly higher frame rates while gaming.]]> 
+
+
+				</Description>
+				<Quantity>3</Quantity>
+				<Processor_Speed>4 GHz</Processor_Speed>
+				<Item_Dimensions>2.2 x 3.1 x 0.3 in</Item_Dimensions>
+				<Processor_Count>16</Processor_Count>
+				<Price_Dollar>$1244</Price_Dollar>
+				<Price_Pound>&#163;1156</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</CPU>
+
+			<CPU id="c403" ref="c503 c603 c703 c803">
+				<Name>Intel® Core™ i9-7980XE Processor</Name>
+				<Item_Number>3</Item_Number>
+				<Description>
+
+					<![CDATA[In short, the Intel Core i9-7980XE is nothing if not monstrous with 18 cores and 36 threads squeezed into Intel’s tiny Skylake-X 14nm architecture. The processor also features 24.75 MB of Smart Cache, support for up to 44 PCIe 3.0 lanes, quad channel memory, and a 165W TDP. More impressively, it also features a base clock frequency of 2.60 GHz that turbos up to 3.4 GHz across all 18 cores when under full load. This processor truly stretches the limits of Intel’s Skylake X architecture and amazingly it all fits in a package that’s more or less half the width of Ryzen Threadripper. The Intel Core i9-7980XE demolished all of our benchmarks, scoring an incredible 3,331 points in CineBench’s multi-threaded benchmark (100 points less than an overclocked Threadripper 1950X), and a staggering 184 points in the single-threaded operation.To put that into perspective, a Core i5-7600K, arguably the go-to processor for strong single core performance – which is crucial for gaming – scores five fewer points at 179. This is due to two reasons. Firstly, the strength of Intel’s Skylake-X Core architecture, and secondly, the introduction of Turbo 3.0, which introduces the ability to overclock anywhere from one-to-four of the chip’s best cores up to 4.2GHz. It does all of this whilst remaining cool as well. By default, Intel does not ship any of its X-series processors with included coolers. The theory being that if you’re willing to invest two grand on a part this expensive, you’ll likely use an aftermarket cooler, to keep your lavish investment well chilled.That said, under our NZXT Kraken X62 280mm AIO cooler, it was rare for it to peak past 55 degrees under load. Even whilst overclocked, we only ever saw it reach around 87 degrees at maximum.Power draw is also fairly concrete, pulling a total of 258W under a single instance of Prime95’s burn test from the wall socket. That’s 13 fewer watts than AMD’s Threadripper 1950X.It’s only after you start messing around with those multipliers and voltages that the Core i9-7980XE’s true potential is unlocked. Generally speaking, though, overclocking X299 parts has been troublesome because of two problems. Firstly, VRMs thermally-throttling under Prime95 loads, forces processors to declock. Secondly, Intel still doesn’t solder its CPUs directly to the Integrated Heat Spreader (IHS) and instead uses inadequate thermal paste to do the job. Overall, it’s been challenging to get the most out of these chips.]]> 
+
+				</Description>
+				<Quantity>2</Quantity>
+				<Processor_Speed>4.3 GHz</Processor_Speed>
+				<Item_Dimensions>1.53 x 3.94 x 1.57 in</Item_Dimensions>
+				<Processor_Count>18</Processor_Count>
+				<Price_Dollar>$1999</Price_Dollar>
+				<Price_Pound>&#163;1675</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</CPU>
+
+			
+		</CPUs>
+		
+
+
+		<Monitor>
+			
+			<CRT id="c501">
+				
+				<Name>Dell P793</Name>
+				<Item_Number>10</Item_Number>
+				<Description>
+
+					<![CDATA[Dell's 17-inch monitor is a solid, inexpensive entry into the CRT world. It delivers a 0.27-millimeter dot pitch and a maximum 1,280 x 1,024 resolution, providing amply sharp and clear images for everyday tasks such as word processing, spreadsheets, Web surfing, and games. The viewable screen size is 16 inches, so you don't have to strain your eyes whenever you use your computer. The screen has an antiglare and antistatic coating to increase visibility. Compatible with PC systems, the monitor is completely plug and play, meaning it's ready to use right out of the box. Box consists of Monitor, base, power cable, signal cable, instructions, warranty information.]]>
+						
+				</Description>
+				
+				<Quantity>2</Quantity>
+				<Price_Dollar>$201.50</Price_Dollar>
+				<Price_Pound>&#163;150</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+				<Information>
+					<Manufacturer>Dell</Manufacturer>
+					<Resolution>1280 x 1024</Resolution>
+					<Dimension>17"</Dimension>
+					<Color>Black</Color>
+				</Information>
+
+			</CRT>
+
+			<LED id="c502">
+				
+				<Name>Acer Predator X34</Name>
+				<Item_Number>11</Item_Number>
+				<Description>
+
+					<![CDATA[Immersion to the max: With its extra-small curvature radius of 1800R, the AOC AGON AG352UCG puts gamers right into the center of the action. A 100Hz refresh rate and NVIDIA G-SYNC technology guarantee super-smooth and responsive gameplay and graphics by minimizing screen tearing, display stuttering and input lag. The monitor’s UltraWide QHD resolution of 3440 x 1440 pixels brings game worlds to life with sharp and detailed images on the large 35″ screen. Clever display settings give players additional advantages, including AOC Shadow Control, which lightens overly dark areas of the image and darkens bright parts without affecting the rest of the screen. Moreover, convenient features such as a retractable headset holder and a handle make the AG352UCG a perfect choice for esports enthusiasts, who can even customize the monitor’s look thanks to adjustable colored LED lights (red, green, blue) on the AG352UCG’s back and lower bezel. The display’s ergonomic stand called AOC Ergo Base offers height, tilt and swivel adjustment options, which empower gamers to find a comfortable posture and prevent back pain. In order to also protect players’ eyes and prevent eyestrain, the AOC Flicker-Free technology regulates the monitor’s brightness with a direct current (DC) backlight system, which reduces flicker. In addition, the optional AOC Low Blue Light mode reduces potentially harmful short wavelength blue light. For professional gamers, we redefine awesomeness with our selection of AOC Gaming and AGON gaming displays, which not only excel with their fast performance, but also with their unique designs and gamer-specific features. The official monitors of numerous elite gaming teams worldwide, AGON and AOC Gaming raises the bar and brings out the true potential in you. Ever since AOC was founded half a century ago, we have been specializing in display technology. It is our goal to provide you with a great display experience, whatever your specific needs.]]>
+					
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$838.99</Price_Dollar>
+				<Price_Pound>&#163;1745</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+				<Information>
+					<Manufacturer>Acer</Manufacturer>
+					<Resolution>3440 x 1440</Resolution>
+					<Dimension>33.35 x 10.49 x 23.11 inches</Dimension>
+					<Color>Black</Color>
+				</Information>
+
+			</LED>
+
+			<LCD id="c503" ref="c903">
+				
+				<Name>Apple Cinema M9179LL/A </Name>
+				<Item_Number>12</Item_Number>
+				<Description>
+
+				
+					<![CDATA[Apple 30" LCD Cinema Display - This huge 30" computer monitor is perfect for the prosumer and professional alike. Imagine multi-tasking with multiple full-size windows open simultaneously, or editing video with a super-wide timeline! It has a native resolution of 2560x1600, and a contrast ratio 400:1, for stunning quality on a Mac G5 powered computer. Brightness - 400 cd/m2 Viewing Angle - 170 degrees horizontal / 170 degrees vertical Antiglare Hardcoat Screen Treatment Kensington Security Port User Controls - Display Power, System Sleep, System Wake, Brightness and Display Tilt Connects to a Macintosh via a digital DVI connection Macintosh system requirements - Power Mac G5 and NVIDIA GeForce 6800 Ultra DDL graphics card (offered as CTO option for new Power Mac G5 customers and as a kit for current Power Mac G5 customers (M9593G/A) PC capable only if Windows PC is equipped with a dual-link DVI graphics card (some resolution adjustments may be required). Feast your eyes on more than four million pixels in the first high-resolution 30-inch flat panel display designed for the personal computer. The Apple Cinema Display line features a gorgeous new anodized aluminum enclosure to complement the Power Mac G5 or PowerBook G4. The 77% increase in screen real estate of the 30-inch Cinema HD Display gives you the space you need to visualize your entire creation yet provides the resolution necessary to edit in place. So you can lay out a two-page spread and edit text without squinting. Or work with a Photoshop document with room for more than 30 layers in a palette. Take in the whole timeline in Final Cut Pro HD, with audio controls. Display an unheard of 126 Logic mixer controls simultaneously. Or peer into four different modes of a molecule visualization with subatomic detail. Add this colossal advancement in innovation to your well-equipped Power Mac G5 for a very reasonable price. The widescreen design of the Apple Cinema Display line offers a natural format for arranging documents the way your brain processes them—longer wide than high. That's why each display gives you the best view for your work. It just makes sense to be able to display a Web page and its code next to each other horizontally, or long video timelines in wide format. Apple engineers find that the nearly 100-pixel per inch resolution is ideal for images, yet allows you to easily work with sophisticated type treatments or just plain email. This painstaking attention to detail moves the industry forward and gives you best LCD technology available. The Apple Cinema display matches the sculpted aluminum enclosures of the Power Mac G5 and PowerBook. This strong, anodized aluminum also allows for an exceptionally narrow bezel, so you can use multiple displays together seamlessly. The Cinema Display hovers above your desk on a curvaceous stand, and hardly requires any pressure to adjust the viewing angle from -5 to 25 degrees, since the enclosure is the lightest Apple display ever, at each size. And some ineffable quality of pure elemental aluminum just feels better to the touch.]]>
+						
+
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$440</Price_Dollar>
+				<Price_Pound>&#163;350</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+				<Information>
+					<Manufacturer>Apple</Manufacturer>
+					<Resolution>2560 x 1600</Resolution>
+					<Dimension>27.09 x 8.46 x 21.38 inches</Dimension>
+					<Color>Silver</Color>
+				</Information>
+			</LCD>
+
+		</Monitor>
+
+		
+		<Mouses>
+			
+			<Mouse id="c601">
+				<Name>Longitech G903 LIGHTSPEED</Name>
+				<Item_Number>20</Item_Number>
+				<Description>
+
+				
+					<![CDATA[Featuring a 1 ms report rate and our end-to-end optimized wireless connectivity, G703 features LIGHTSPEED wireless technology introduced with the groundbreaking G900 to deliver incredible responsiveness for professional tourNament level performance. Add POWERPLAY, the world’s first wireless gaming mouse charging system, to keep G903 (and G703) charged while at play and at rest.* The module system also includes a 10g removable weight when you aren’t using the POWERCORE, so you can customize the weight of the mouse to your preference. Precisely-tensioned metal springs and exclusive mechanical-pivot hinges keep the primary left and right mouse buttons poised to trigger. This technology delivers an exceptionally clean and crisp button feel, response, and consistency. Plug in the data and charging cable to seamlessly switch between wireless and wired modes without interrupting your game. Use the included USB adapter to keep your LIGHTSPEED USB transceiver nearby to quickly switch between wired and wireless modes. Brilliant RGB lets you customize lighting brightness and color to match your style, system and environment. With Logitech Gaming Software, you can select from a full spectrum of up to 16.8 million colors and synchronize lighting patterns and effects with other Logitech G devices.]]>
+						
+
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$244</Price_Dollar>
+				<Price_Pound>&#163;200</Price_Pound>
+				<Delivery>Free Delivery</Delivery>
+			</Mouse>
+			
+			<Mouse id="c602">
+				<Name>Razer Naga Chroma MMO</Name>
+				<Item_Number>21</Item_Number>
+				<Description>
+
+					<![CDATA[In any MMO, the more spells you have instant access to, the greater your advantage becomes. The Razer Naga Epic Chroma features a total of 19 buttons, including the iconic Razer Naga’s 12-button thumb grid to maximize the actions at your disposal. Now letting you map and access even more abilities, macros, as well as controls, the Razer Naga Epic Chroma makes it easy to hit the right button at the right time. The Razer Naga Epic Chroma’s gaming-grade wireless technology gives you completely unrestricted movement without compromising on mouse control or accuracy. With a response rate of 1ms whether wired or wireless, your Razer Naga Epic Chroma delivers peak performance all the time. Furthermore, by plugging in the USB when the battery is running low, your Razer Naga Epic Chroma charges while you use it, so you get zero downtime all the time.With Chroma customizable lighting for both the scroll wheel and thumb grid, you can choose from an impressive spectrum of colors to personalize your Razer Naga Epic Chroma. As each region is controlled independently via Razer Synapse, you can make this truly unique mouse distinctly yours. Slowly cycles through the entire spectrum of 16.8 million colors for a subtle yet visually stunning look. Illuminates your mouse in any color you pick from the selection of 16.8 million colors.]]>
+					
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$306</Price_Dollar>
+				<Price_Pound>&#163;250</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</Mouse>
+
+			
+		</Mouses>
+
+		<Keyboards>
+			
+			<Keyboard id="c701">
+				<Name>SteelSeries Apex M750 RGB</Name>
+				<Item_Number>30</Item_Number>
+				<Description>
+
+					<![CDATA[The SteelSeries Apex M750 is the ultimate esports keyboard, featuring ultra-fast QX2 mechanical switches and an extraordinarily durable and sleek aerospace aluminum core. Dynamic Prism RGB lighting delivers millions of customizable colors and lighting effects, while Prism Sync allows you to sync your personalized effects between all your Prism-enabled gear. Plus, GameSense lighting delivers reactive illumination based on in-game events like low ammo, health, kills, money and cooldown timers. SteelSeries Engine software gives you the power to completely customize your keys, macros and profiles for advanced gameplay. Presets lighting effects are stored on-board for on-the-go use.​]]>
+					
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$270</Price_Dollar>
+				<Price_Pound>&#163;255</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</Keyboard>
+
+			<Keyboard id="c702">
+				<Name>CORSAIR K95 RGB PLATINIUM</Name>
+				<Item_Number>31</Item_Number>
+				<Description>
+
+
+					<![CDATA[Corsair is one of the first and largest players in the mechanical keyboards market. Their exclusive deals with Cherry, the most reputable manufacturer of mechanical key switches, allowed Corsair to slightly outpace their competition. For example, Corsair held the exclusive for Cherry MX RGB switches for a year, which made the K70 RGB one of the most popular top-tier gaming keyboards in 2015, and also held the exclusive for Cherry MX Speed switches for a year, making the K70 RGB RAPIDFIRE the only keyboard that had them installed in 2016. One could easily notice that Corsair has been using the same two core keyboard designs, the K70 and the K95, for several years, only changing the switches and/or adding features like on-board memory and programmability. The tenkeyless K65 is also based on the same design as the K70, missing only the keypad and the audio volume wheel, and is only available via Best Buy. Corsair did release new designs, such as the plastic STRAFE in 2015, but never ceased upgrading the K70 and the K95, which still are the main focus of the company. This year Corsair has something a little different in store for us. The Name of their new keyboard is the Corsair Gaming K95 RGB Platinum, and features the Cherry MX RGB Speed mechanical switches that the K70 RGB RAPIDFIRE did. When Corsair first mentioned the Name of the keyboard to us, we wrongly assumed that it would be nothing more than the classic K95 with Cherry MX RGB Speed installed. Despite the Name, the K95 RGB Platinum is not sharing the same core design as the previous K95 models, but instead seeks to bridge the gap between the classic K70 and the overextended K95.]]>
+					
+
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$280</Price_Dollar>
+				<Price_Pound>&#163;260</Price_Pound>
+				<Delivery>Free Delivery</Delivery>
+
+			</Keyboard>
+
+			<Keyboard id="c703">
+				<Name>G.Skill RIPJAWS KM570 RGB</Name>
+				<Item_Number>32</Item_Number>
+				<Description>
+
+
+					<![CDATA[RIPJAWS KM570 RGB returns to the humble roots of mechanical keyboards with a simplistic design meant for enduring functionality, all while packed with major key gaming and media entertainment features, and storing the settings for a complete profile onto the onboard storage. Using only genuine Cherry MX keyswitches with responsive 2mm actuation distance and a 50 million keystroke durability for long lasting and quick gaming response, Cherry MX Brown keyswitches provide fast double-tap response for intense gaming sessions and light tactile feedback for easy daily typing. No gaming keyboard is complete without LED lighting. Allowing per-key lighting customizability, the KM570 RGB lets you control the lighting to each individual key, so you can set the keys that matter to light up. Additionally, 8 lighting patterns with full adjustability for speed and bright are also included directly into the keyboard hardware. Enabling a more expansive control in games and at work, the KM570 RGB provides macro support for each individual key. For easy programming, the KM570 RGB is capable of on-the-fly macro recording so that the keystrokes you need can be recorded at any time!]]>
+					
+
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$116</Price_Dollar>
+				<Price_Pound>&#163;99</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+			</Keyboard>
+
+		</Keyboards>
+
+		<Hard_Disks>
+			
+			<Hard_Disk id="c801">
+				<Name>Buffalo MiniStation Extreme</Name>
+				<Item_Number>40</Item_Number>
+				<Description>
+
+				
+					<![CDATA[MiniStation Extreme NFC is a rugged portable hard drive equipped with a unique wrap-around USB cable and secure hardware encryption. Built in NFC technology allows users to unlock and access files on their hard drive using the included smartcard without having to remember a password and protects your data in case of loss. MiniStation Extreme NFC features US Military Standard shock protection with a ruggedized chassis and specialized bumpers designed to absorb and transfer shock away from the hard disk due to accidental bumps and drops from up to 1.2 meters and is water and dust resistant. Simply plug the convenient wrap-around cable into any available USB port on your computer and instantly add capacity or store files to take on the road; with 256-bit AES hardware encryption, you can rest assured your data is safe, wherever you go. Store, back up and transport your content safely and securely.]]>
+						
+
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$99.58</Price_Dollar>
+				<Price_Pound>&#163;90</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</Hard_Disk>
+
+			<Hard_Disk id="c802">
+				<Name>LaCie Porsche Design</Name>
+				<Item_Number>41</Item_Number>
+				<Description>
+
+				
+					<![CDATA[Out of a collaboration born in 2003, a trailblazing Tech firm and an iconic design house have forged another functional showpiece. The LaCie Porsche design mobile drive welds forward-thinking technology from LaCie with immaculate style from Porsche design. It features reversible USB-C connectivity for next-generation computers as well as compatibility with those PC and Mac computers with USB 3.0 ports. To store your past and future memories, the LaCie Porsche design mobile drive also offers the highest capacity drives available. It also delivers speeds of up to 5 GB/S1, so you can drag and drop files and perform backups quickly. With its minimalist, all-aluminum enclosure, this product is lightweight but also feels sturdy and substantial in your hands.]]>
+						
+
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$104.17</Price_Dollar>
+				<Price_Pound>&#163;95</Price_Pound>
+				<Delivery>Free Delivery</Delivery>
+			</Hard_Disk>
+
+			<Hard_Disk id="c803">
+				<Name>Samsung T5 Portable SSD</Name>
+				<Item_Number>42</Item_Number>
+				<Description>
+
+				
+					<![CDATA[The Samsung Portable SSD T5 elevates data transfer speeds to the next level and unleashes a new experience in external storage. With a compact and durable design and password protection, the T5 is truly easy to carry and stores data securely Fast, solid, secure, minimal, and easy to use - the Samsung T5 Portable SSD is Storage Made New. Take a look at the following specifications on our newest portable SSD and unleash the next level of performance.With Samsung V-NAND flash memory and a USB 3.1 Gen 2 interface, the T5 provides transfer speeds of up to 540 MB/s*, that’s up to 4.9x faster than external HDDs**. Transfers and backups of large-sized data including 4K videos and high-resolution photos will be much faster. Performance may vary depending on host configuration. To reach maximum transfer speeds of 540 MB/s, the host device and connection cables must support USB 3.1 Gen 2 and the UASP mode must be enabled.]]>
+						
+
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$745</Price_Dollar>
+				<Price_Pound>&#163;650</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+			</Hard_Disk>
+
+		</Hard_Disks>
+
+		<Speakers>
+			
+			<Speaker id="c901">
+				<Name>Edifer e25 Luna Eclipse</Name>
+				<Item_Number>50</Item_Number>
+				<Description>
+
+					<![CDATA[Luna Eclipse is a stunning 74 watt, 2.0 Bluetooth speaker set. Ideal for desktops and home environments, Luna eclipse is a must have for audio enthusiasts seeking exceptional audio and a visually striking experience. Connect to a Bluetooth enabled device for wireless audio, or to your audio host using the auxiliary cable provided. Touch sensitive controls. located on the active speaker, control volume, power and track change with a swiping motion when in Bluetooth mode. Each speaker contains a 3/4” / 19mm tweeter and a 3” / 76.2mm full range speaker drive, producing a total RMS of 74 watts. In addition, each speaker contains two 3” / 76.2mm passive bass radiators, maximizing the bass performance and listening experience. The incorporation of DSP and DRC minimizes distortion even at the highest volumes, producing clear, clean audio. A slim, easy to use remote control also controls volume levels and power to the speakers.]]>					
+
+
+				</Description>
+				<Quantity>2</Quantity>
+				<Price_Dollar>$277.09</Price_Dollar>
+				<Price_Pound>&#163;240.06</Price_Pound>
+				<Delivery>Free Delivery</Delivery>
+			</Speaker>
+
+			<Speaker id="c902">
+				<Name>Audioengine A2+</Name>
+				<Item_Number>51</Item_Number>
+				<Description>
+
+					<![CDATA[Started in 2005, Audioengine is an independent speaker company based in Austin, Texas that designs and builds high quality, easy to use audio gear at affordable price points.  The  Audioengine A2+ Premium Powered Speaker System is the industry standard for audiophile-grade performance and value.With a built-in digital-to-analog converter (DAC), the Audioengine 2+ allows you to send high-quality digital audio direct from your computer’s USB port. Use the variable RCA output to connect a subwoofer.  The Audioengine 2+ is a great introduction to high-quality audio and the perfect upgrade for your computer or turntable. The best-selling Audioengine 2+ sets the standard for mini music systems. Everyone knows the difference between custom-built, small batch products and the disappointment of mass-produced, plastic, over-marketed products. The A2+ was designed and hand-built by the Audioengine team with the goal of exceeding expectations of both value and performance and can fit anywhere in your house or office. All Audioengine powered speakers feature classic A/B analog amplifiers that are incredibly warm sounding and the type of amplifier prefered by audiophiles. Most consumer speakers use cheaper digital amps but Audioengine uses the best components possible to create the award-winning "Audioengine signature sound". Both amps are built into the left speaker, while the right speaker is passive and all cables are included. No software, apps, or plug-ins to install so the A2+ takes minutes to set up. With a built-in digital-to-analog converter (DAC), the Audioengine 2+ allows you to send high-quality digital audio direct from your computer’s USB port or you can use the RCA or mini-jack analog inputs to connect to other components such as a turntable. For more low end, the variable RCA output connects to any subwoofer, like the Audioengine S8.]]>
+					
+
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$278</Price_Dollar>
+				<Price_Pound>&#163;249</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+			</Speaker>
+
+			<Speaker id="c903">
+				<Name>Longotech Z337</Name>
+				<Item_Number>52</Item_Number>
+				<Description>
+
+				<![CDATA[Enjoy the convenience of wireless streaming and never worry about battery life because this 2.1 speaker system is always plugged in. Its 80 Watts Peak/40 Watts RMS power delivers bold sound. Easily access the Bluetooth pairing button from the wired control pod. Adjust the bass level with the dedicated control knob on the back of the subwoofer. For a wired connection use the 3.5mm or RCA inputs.]]>
+					
+				</Description>
+				<Quantity>4</Quantity>
+				<Price_Dollar>$99.99</Price_Dollar>
+				<Price_Pound>&#163;77.89</Price_Pound>
+				<Delivery>Express Delivery</Delivery>
+
+			</Speaker>
+
+		</Speakers>
+		
+		
+
+	</Items>
+
+</root>

@@ -1,0 +1,482 @@
+/**
+  * 1 British Pound = 1.25 US Dollar 
+  */
+
+/** 
+<!--This document stores the CSS information for the the XML file catalog_16034897.xml-->
+  * Author: Mohit Paudel 
+  * Group: C5 
+  * Londonmet ID: 16034897 
+  */
+  
+root 
+{   
+    display: block; 
+    border: 3px solid black; 
+    width: 850px; 
+    margin: 5px;
+    padding-bottom: 20px;
+    margin: 0px auto; 
+    margin-top: 10px; 
+    box-shadow: 0px 10px 5px 10px;
+    background-color: rgb(255,248,220);
+}
+
+
+Logo
+{
+    display: block;
+    border: 1px solid black;
+    width:851px;
+    height:200px;
+    background-image: url("logo2.png");
+    background-color: rgb(8, 41, 93);
+    background-repeat: no-repeat;
+    margin:0px auto;
+    margin-left:-2px;
+    margin-right: -1000px;
+    margin-top: -150px;
+}
+
+Store_Name,Address,Telephone_Number,Website   
+{
+    display: block; 
+    width: 500px; 
+    font-family: Elephant, Helvetica, Sans-serif; 
+    font-size: 18pt;
+    margin-left: 250px;
+}
+
+
+
+Store_Name
+{
+    font-size:30pt;
+    color:gold;
+
+}
+
+Address,Telephone_Number,Website
+{
+    
+    color:red;
+
+}
+
+
+Name     
+{
+    display: block; 
+    width: 95%; 
+    font-family: AR JULIAN, Helvetica, Sans-serif; 
+    font-size: 14pt; 
+    color:#D2691E; 
+    border-bottom: 3px solid brown;
+    margin-left: 20px;
+    margin-top: 0px
+}
+
+Item_Number,Quantity,Processor_Speed,Item_Dimensions,Processor_Count,Price_Dollar,Price_Pound,Delivery,Information
+{
+    display: list-item; 
+    font-family: Bookman Old Style, Times, Serif; 
+    font-size:12pt; 
+    list-style-type:square; 
+    margin-left: 50px
+}
+
+
+Manufacturer, Resolution, Dimension, Color
+{
+
+    list-style:circle; 
+}
+
+
+Description
+{
+	display:block;
+	width:397px;
+	height:98px;
+	float:right;
+	font-family: Bookman Old Style, Times, Serif; 
+    font-size:12pt;
+    margin-right:20px;
+    text-align: justify;
+    overflow: auto;
+    margin-top:-12px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(179, 156, 201);
+}
+
+CPUs
+{
+    display:block;
+    width:807px;
+    height:645px;
+    float:right;
+    margin-right:20px;
+    margin-top:-0px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+CPU
+{
+    display:block;
+    width:747px;
+    height:190px;
+    float:right;
+    margin-right:29px;
+    margin-top:2px; 
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Monitor
+{
+    display:block;
+    width:807px;
+    height:848px;
+    float:right;
+    margin-top:20px;
+    margin-right:20px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+CRT
+{
+    display:block;
+    width:747px;
+    height:257px;
+    float:right;
+    margin-right:30px;
+    margin-top:3px; 
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+LED
+{
+    display:block;
+    width:747px;
+    height:257px;
+    float:right;
+    margin-right:30px;
+    margin-top:10px; 
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+LCD
+{
+    display:block;
+    width:747px;
+    height:257px;
+    float:right;
+    margin-right:30px;
+    margin-top:10px; 
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Mouses
+{
+    display:block;
+    width:807px;
+    height:395px;
+    float:right;
+    margin-top:20px;
+    margin-right:20px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+Mouse
+{
+    display:block;
+    width:747px;
+    height:166px;
+    float:right;
+    margin-right:29px;
+    margin-top:2px; 
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Keyboards
+{
+    display:block;
+    width:807px;
+    height:570px;
+    float:right;
+    margin-top:20px;
+    margin-right:20px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+Keyboard
+{
+    display:block;
+    width:747px;
+    height:165px;
+    float:right;
+    margin-right:29px;
+    margin-top:2px; 
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Hard_Disks
+{
+    display:block;
+    width:807px;
+    height:574px;
+    float:right;
+    margin-top:20px;
+    margin-right:20px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+Hard_Disk
+{
+    display:block;
+    width:747px;
+    height:165px;
+    float:right;
+    margin-right:29px;
+    margin-top:3px; 
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Speakers
+{
+    display:block;
+    width:807px;
+    height:570px;
+    float:right;
+    margin-top:20px;
+    margin-right:20px; 
+    background-color: rgb(179, 179, 179);
+    border: 1px solid blue; 
+}
+
+Speaker
+{
+    display:block;
+    width:747px;
+    height:165px;
+    float:right;
+    margin-right:29px;
+    margin-top:2px;
+    margin-bottom:7px;
+    background-color: rgb(233,244,233);
+    border: 1px dashed green; 
+}
+
+Manufacturer,Resolution,Color
+{
+    display: list-item; 
+    list-style-type: disc; 
+    font-family: Bookman Old Style, Times, Serif; 
+    font-size:12pt; 
+    margin-left: 100px
+}
+
+Dimension
+{
+    display: list-item; 
+    list-style-type: disc; 
+    font-family: Bookman Old Style, Times, Serif; 
+    font-size:12pt;  
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+Items>CPUs:before{
+    content: 'CPUs: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Items>Monitor:before{
+    content: 'Monitor: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Items>Mouses:before{
+    content: 'Mouses: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Items>Keyboards:before{
+    content: 'Keyboards: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Items>Hard_Disks:before{
+    content: 'Hard_Disks: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Items>Speakers:before{
+    content: 'Speakers: ';
+    color:purple;
+    font-size: 20px;
+}
+
+Monitor>CRT:before{
+    content: 'CRT: ';
+    color:red;
+    font-size: 20px;
+}
+
+Monitor>LED:before{
+    content: 'LED: ';
+    color:red;
+    font-size: 20px;
+}
+
+Monitor>LCD:before{
+    content: 'LCD: ';
+    color:red;
+    font-size: 20px;
+}
+
+
+
+
+Item_Number:before{
+    content: 'Item_Number: ';
+    color:blue;
+}
+
+Quantity:before{
+    content: 'Quantity: ';
+    color:blue;
+}
+
+Processor_Speed:before{
+    content: 'Processor Speed: ';
+    color:blue;
+}
+
+Item_Dimensions:before{
+    content: 'Dimension: ';
+    color:blue;
+}
+
+Processor_Count:before{
+    content: 'Processor Count: ';
+    color:blue;
+}
+
+Price_Dollar:before{
+    content: 'Price Dollar: ';
+    color:blue;
+}
+
+Price_Pound:before{
+    content: 'Price Pound: ';   
+    color:blue;
+}
+
+Delivery:before{
+    content: 'Delivery: ';
+    color:blue;
+}
+
+Information:before{
+    content: 'Information: ';
+    color:blue;
+}
+
+
+
+Information>Manufacturer:before{
+    content: 'Manufacturer: ';
+    color:green;
+}
+
+Information>Resolution:before{
+    content: 'Resolution: ';
+    color:green;
+}
+
+Information>Dimension:before{
+    content: 'Dimension: ';
+    color:green;
+}
+
+Information>Color:before{
+    content: 'Color: ';
+    color:green;
+}
+
+
+
+CPU>Description:before{
+    content: 'Description: ';
+    color: white;
+}
+
+CRT>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+LED>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+LCD>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+
+Mouse>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+
+
+Keyboard>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+
+
+Hard_Disk>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+
+
+Speaker>Description:before{
+    content: 'Description: ';
+    color:white;
+}
+
+Description:First-letter{
+    font-size:24px; 
+}
+
+
