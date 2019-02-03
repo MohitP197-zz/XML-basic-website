@@ -300,7 +300,7 @@ Dimension
     font-family: Bookman Old Style, Times, Serif; 
     font-size:12pt;  
     margin-left: 100px;
-    margin-bottom: 20px;
+    
 }
 Items>CPUs:before{
     content: 'CPUs: ';
